@@ -1,6 +1,6 @@
 <?php
 include('../../db/room_table.php');
-include('../../db/reservation_table.php');
+include_once('../../db/reservation_table.php');
 $room_number = filter_input(INPUT_POST, 'room_number');
 $login_id = filter_input(INPUT_POST, 'login_id');
 $from = filter_input(INPUT_POST, 'from');
