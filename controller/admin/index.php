@@ -1,11 +1,9 @@
-<?php
-include("../../view/header.php");
-?>
 <main>
   <header>
-    <h2>Login</h2>
+    <h2>Admin</h2>
   </header>
   <form action="./authenticate_login.php" method="post">
+  <p>Please Enter Admin's username and password</p>
     <label>Login
       <input type="text" class="text" value="" name="login_id">
     </label><br />

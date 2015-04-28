@@ -31,10 +31,10 @@ table, th, td, tr {
   <td><?php echo $room['price'] ?></td>
   <td>
     <form action="./reserve_room.php" method="post">
-      <input type="hidden" name="room_number" class="text" value="<?php echo $room['room_number'] ?>" name="room_number">
-      <input type="hidden" name="login_id" class="text" value="<?php echo $_SESSION['login_id'] ?>" name="login_id">
-      <input type="hidden" name="from" class="text" value="<?php echo $from ?>" name="login_id">
-      <input type="hidden" name="to" class="text" value="<?php echo $to ?>" name="login_id">
+      <input type="hidden" name="room_number" class="text" value="<?php echo $room['room_number'] ?>">
+      <input type="hidden" name="login_id" class="text" value="<?php echo $_SESSION['login_id'] ?>">
+      <input type="hidden" name="from" class="text" value="<?php echo $from ?>">
+      <input type="hidden" name="to" class="text" value="<?php echo $to ?>">
       <input type="submit" class="text" value="RESERVE" name="">
     </form>
   </td>
